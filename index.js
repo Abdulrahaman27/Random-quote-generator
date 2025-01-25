@@ -1,0 +1,57 @@
+const quotes = [
+    "The only way to do great work is to love what you do. - Steve Jobs",
+    "Success is not final, failure is not fatal: it is the courage to continue that counts. - Winston Churchill",
+    "Believe you can and you're halfway there. - Theodore Roosevelt",
+    "Your time is limited, so don’t waste it living someone else’s life. - Steve Jobs",
+    "Hardships often prepare ordinary people for an extraordinary destiny. - C.S. Lewis",
+    "Do what you can, with what you have, where you are. - Theodore Roosevelt",
+    "The secret of getting ahead is getting started. - Mark Twain",
+    "Difficulties in life are intended to make us better, not bitter. - Dan Reeves",
+    "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+    "It does not matter how slowly you go as long as you do not stop. - Confucius",
+    "Act as if what you do makes a difference. It does. - William James",
+    "Don’t watch the clock; do what it does. Keep going. - Sam Levenson",
+    "Keep your face always toward the sunshine—and shadows will fall behind you. - Walt Whitman",
+    "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+    "A person who never made a mistake never tried anything new. - Albert Einstein",
+    "Opportunities don’t happen. You create them. - Chris Grosser",
+    "The best way to predict the future is to create it. - Peter Drucker",
+    "Success is how high you bounce when you hit bottom. - George S. Patton",
+    "Your big opportunity may be right where you are now. - Napoleon Hill",
+    "I never dreamed about success. I worked for it. - Estée Lauder",
+    "Failure is the opportunity to begin again more intelligently. - Henry Ford",
+    "Be not afraid of life. Believe that life is worth living, and your belief will help create the fact. - William James",
+    "Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart. - Roy T. Bennett",
+    "It’s not whether you get knocked down, it’s whether you get up. - Vince Lombardi",
+    "Everything you’ve ever wanted is on the other side of fear. - George Addair",
+    "Dream big and dare to fail. - Norman Vaughan",
+    "Do what you love, and you’ll never work a day in your life. - Confucius",
+    "When something is important enough, you do it even if the odds are not in your favor. - Elon Musk",
+    "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful. - Albert Schweitzer",
+    "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
+    "A goal without a plan is just a wish. - Antoine de Saint-Exupéry",
+    "Happiness depends upon ourselves. - Aristotle",
+    "Do what is right, not what is easy nor what is popular. - Roy T. Bennett",
+    "Life isn’t about waiting for the storm to pass, it’s about learning to dance in the rain. - Vivian Greene",
+    "Live as if you were to die tomorrow. Learn as if you were to live forever. - Mahatma Gandhi",
+    "We generate fears while we sit. We overcome them by action. - Dr. Henry Link",
+    "If you want to lift yourself up, lift up someone else. - Booker T. Washington",
+    "When you arise in the morning, think of what a privilege it is to be alive, to think, to enjoy, to love. - Marcus Aurelius",
+    "Either you run the day, or the day runs you. - Jim Rohn",
+    "Don’t count the days, make the days count. - Muhammad Ali",
+    "Do what you feel in your heart to be right—for you’ll be criticized anyway. - Eleanor Roosevelt",
+    "There is only one way to avoid criticism: do nothing, say nothing, and be nothing. - Aristotle",
+    "Don’t let yesterday take up too much of today. - Will Rogers",
+    "You must be the change you wish to see in the world. - Mahatma Gandhi",
+    "Nothing will work unless you do. - Maya Angelou",
+    "The journey of a thousand miles begins with one step. - Lao Tzu",
+    "To be the best, you must be able to handle the worst. - Wilson Kanadi",
+    "If you want to achieve greatness stop asking for permission. - Anonymous"
+];
+
+function generateQuote() {
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    const quoteElement = document.getElementById("quote");
+    quoteElement.innerText = quotes[randomIndex];
+    quoteElement.classList.add("text-success","fw-bold");
+}
