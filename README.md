@@ -32,7 +32,7 @@ random-quote-generator/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Abdulrahaman/random-quote-generator.git
+   git clone https://github.com/Abdulrahaman/Random-quote-generator.git
    cd random-quote-generator
 ````
 
