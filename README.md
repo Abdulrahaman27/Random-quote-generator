@@ -45,4 +45,4 @@ This project is open-source and free to use under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/Abdulrahaman27)
+Made with ❤️ by [Abbas Abdulrahaman](https://github.com/Abdulrahaman27)
